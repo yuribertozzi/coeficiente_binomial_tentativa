@@ -27,7 +27,7 @@ m = int(input("Entre com o valor de m: "))
 n = int(input("Entre com o valor de n: "))
 
 
-coeficiente = fatorial(m)/(fatorial(m - n)*fatorial(n))
+coeficiente = fatorial(m)/(fatorial(m - n) * fatorial(n))
 
 print()
 
