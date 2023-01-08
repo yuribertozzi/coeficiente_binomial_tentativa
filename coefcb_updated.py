@@ -1,20 +1,14 @@
 def fatorial (x):
 
-	if x == 0:
-	
-		return(1)
+	f = 1
 
-	else:
+	while x > 1:
 
-		f = 1
+		f = f * x
 
-		while x > 1:
+		x = x - 1
 
-			f = f * x
-
-			x = x - 1
-
-		return(f)
+	return f
 
 
 # m!/((m-n)!n!)
